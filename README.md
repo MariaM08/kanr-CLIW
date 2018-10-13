@@ -1,1 +1,1 @@
-# kanr-CLIW
+# University project
