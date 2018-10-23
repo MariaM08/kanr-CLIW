@@ -5,7 +5,7 @@ body {
     background-color: rgba(7, 13, 102, 0.801);
 }
 .header {
-    background-color: aquamarine;
+    background-color: brown;
     grid-row: 1;
     grid-column: 1/5;
 }
