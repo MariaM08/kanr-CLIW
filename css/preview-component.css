@@ -1,0 +1,33 @@
+.preview {
+    display: grid;
+    grid-template: 93% 5%  / 1fr;
+    position:relative;
+}
+
+.controls {
+    grid-row: 2;
+    position: relative;
+    display: grid;
+    padding: 1% 0% 1% 1%;
+    border-top: solid;
+    border-top-width: 1px;
+    grid-template: 1fr / 4% 4% 4% 1fr 4%;
+}
+
+.progress-bar {
+    width: 98%;
+    background-color: black; 
+    display: grid;
+    margin-top: 3px;
+    height: 10px;
+}
+
+.filled-bar {
+    width: 60%;
+    background-color: rgb(32, 32, 138);
+    height: auto;
+}
+
+.controls i {
+    cursor: pointer;
+}
