@@ -1,0 +1,13 @@
+body {
+    background-color: rgba(48, 23, 94, 0.877);
+}
+.preview {
+    background-color: rgb(166, 148, 219);
+}
+.title, .menu, .header {
+    background-color: rgb(128, 53, 25);
+}
+
+.tab, .footer {
+    background-color: rgb(204, 150, 50);
+}
