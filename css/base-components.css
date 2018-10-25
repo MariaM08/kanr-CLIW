@@ -32,7 +32,6 @@ body {
     grid-template: 5vh 80vh 5vh  / 50px 20fr 1fr 4fr;
     height: 90vh;
     width: 100%;
-    z-index:-1;
     position:relative;
 }
 .header>img {
