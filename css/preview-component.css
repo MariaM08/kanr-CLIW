@@ -1,6 +1,6 @@
 .preview {
     display: grid;
-    grid-template: 93% 5%  / 1fr;
+    grid-template: 93% 7%  / 1fr;
     position:relative;
 }
 
@@ -16,7 +16,6 @@
 
 .progress-bar {
     width: 98%;
-    background-color: black; 
     display: grid;
     margin-top: 3px;
     height: 10px;
@@ -24,7 +23,6 @@
 
 .filled-bar {
     width: 60%;
-    background-color: rgb(32, 32, 138);
     height: auto;
 }
 
