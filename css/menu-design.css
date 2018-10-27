@@ -8,7 +8,7 @@
     text-align: center;
     padding-top: 2vw;
 }
-.menu i {
+.menu span i {
     background-image: linear-gradient(to left,rgb(129, 18, 18),yellow);
     background-blend-mode: darken;
     color: #111111;
