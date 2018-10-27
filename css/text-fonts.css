@@ -1,7 +1,8 @@
 .title>p {
   font-family: 'Open Sans';
   transform: rotate(90deg);
-  font-size: 30px; 
+  font-size: 28px; 
   white-space: nowrap;
 }
+
 
