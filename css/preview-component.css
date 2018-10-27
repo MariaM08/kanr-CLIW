@@ -6,16 +6,16 @@
 
 .controls {
     grid-row: 2;
-    position: relative;
     display: grid;
     padding: 1% 0% 1% 1%;
     border-top: solid;
     border-top-width: 1px;
     grid-template: 1fr / 4% 4% 4% 1fr 4%;
+    text-align: center;
 }
 
 .progress-bar {
-    width: 98%;
+    width: 1fr;
     display: grid;
     margin-top: 3px;
     height: 10px;
@@ -27,5 +27,6 @@
 }
 
 .controls i {
+    font-size: 90%;
     cursor: pointer;
 }
