@@ -31,7 +31,7 @@ body {
 }
 .wrapper {
     display: grid;
-    grid-template: 5vh 80vh 5vh  / 3fr 40fr 1fr 10fr;
+    grid-template: 5vh 80vh 5vh  / 1fr 40fr 2fr 10fr;
     height: 90vh;
     width: 100%;
 }

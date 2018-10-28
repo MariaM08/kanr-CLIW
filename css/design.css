@@ -25,8 +25,10 @@ body {
 }
 
 .title{
-   background-image: linear-gradient( to right, rgb(226, 175, 34),rgb(230, 222, 111), rgb(70, 7, 17));    
    border-radius: 12px;
+   background-color: rgb(230, 211, 103);
+   border: 2px solid;
+   border-color:rgba(104, 16, 16, 0.938);
 }
 
 .header, .footer{
@@ -55,17 +57,4 @@ body {
     border-bottom-right-radius: 12px;
     border-right: outset;
     border-color:rgba(104, 16, 16, 0.938);
-}
-.progress-bar {
-    background-color: rgb(0, 0, 0);
-    border-radius: 5px;
-}
-
-.filled-bar {
-    background-color: rgba(104, 16, 16, 0.938);
-    border-radius: 5px;
-}
-
-.controls i {
-    color: rgb(23, 27, 12);
 }
