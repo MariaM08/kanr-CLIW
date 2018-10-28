@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-<!-- this line will be left first and overrriden in other css files -->
+
 <link rel="stylesheet" type="text/css" href="./css/base-components.css">
 <link rel="stylesheet" type="text/css" href="./css/preview-component.css">
 <link rel="stylesheet" type="text/css" href="./css/text-fonts.css">
@@ -39,14 +39,14 @@
         </div>
     </div>
     <div class="menu">
-        <span><i class="fas fa-shapes"></i></span>        
-        <span><i class="fas fa-layer-group"></i></span>
-        <span><i class="fas fa-crop"></i></span>
-        <span><i class="fas fa-bezier-curve"></i></span>
-        <span></span>
-        <span><i class="fas fa-download"></i></span>
+        <button class='selected'><i class="fas fa-shapes" id="new-object"></i></button>        
+        <button><i class="fas fa-layer-group" id="new-layer"></i></button>
+        <button><i class="fas fa-crop" id="edit-object" ></i></button>
+        <button><i class="fas fa-bezier-curve" id="edit-animation"></i></button>
+        <button></span>
+        <button><i class="fas fa-download" id="export"></i></button>
     </div>
-    <div class="menu tab">
+    <div class="menu-tab">
     <div class=" create-object buttons">
 
     <button> Create <i class="fa fa-plus"></i></button></div>

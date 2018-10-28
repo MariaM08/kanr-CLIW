@@ -35,9 +35,9 @@ body {
     border-color:rgba(104, 16, 16, 0.938);
 }
 
-.tab{
+.menu-tab{
     background-image: linear-gradient(  to bottom right,
-    rgba(104, 16, 16, 0.938),
+        rgba(104, 16, 16, 0.938),
         rgb(187, 179, 118), 
         rgb(211, 198, 104), 
         rgba(104, 16, 16, 0.938)

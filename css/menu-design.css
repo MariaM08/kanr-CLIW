@@ -2,22 +2,32 @@
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr;
 }
-.menu span {
-    width: 95%;
-    margin: 5%;
+
+.menu button {
+    width: 100%;
     text-align: center;
-    padding-top: 2vw;
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
 }
-.menu span i {
+
+.menu button:focus {
+    outline: none;
+}
+
+.menu button i {
     background-image: linear-gradient(to left,rgb(129, 18, 18),yellow);
-    background-blend-mode: darken;
     color: #111111;
     font-size: 1.6vw;
     padding: 0.4vw;
     border: solid;
     border-color: rgba(0, 0, 0, 0.815);
     border: 1px;
-    border-radius: 5px;
+    border-radius: 7px;
     box-shadow: -2px -2px rgba(0, 0, 0, 0.452);
     cursor: pointer;
+}
+
+.menu .selected>i {
+    background-image: linear-gradient(to right,rgb(129, 18, 18),yellow);
+    box-shadow: -4px -4px rgba(134, 5, 5, 0.801);
 }
