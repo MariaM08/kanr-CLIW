@@ -1,7 +1,7 @@
 .title {
-  padding: 5vh 0vh;
+  padding: 5vh 0.3vw;
 }
-.title>p {
+.title>h1 {
   padding: 0px;
   margin: 0px;
   font-size: 1.5vw; 
