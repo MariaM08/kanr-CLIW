@@ -4,6 +4,12 @@ body {
     font-size: 100%;
     font-family: 'Mali', cursive;
 }
+.wrapper {
+    display: grid;
+    grid-template: 5vh 80vh 5vh  / 1fr 40fr 2fr 10fr;
+    height: 90vh;
+    width: 100%;
+}
 .header {
     grid-row: 1;
     grid-column: 1/5;
@@ -28,11 +34,5 @@ body {
 .footer{
     grid-row: 3;
     grid-column: 1/5;
-}
-.wrapper {
-    display: grid;
-    grid-template: 5vh 80vh 5vh  / 1fr 40fr 2fr 10fr;
-    height: 90vh;
-    width: 100%;
 }
 
