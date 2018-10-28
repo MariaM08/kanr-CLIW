@@ -1,8 +1,15 @@
+body {
+  font-size: 100%;
+  font-family: 'Mali', cursive;
+}
+
 .title>p {
-  font-family: 'Open Sans';
-  transform: rotate(90deg);
-  font-size: 28px; 
+  padding-top: 9vw;
+  font-size: 1.2vw; 
   white-space: nowrap;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-shadow: 1px 1.4px rgba(59, 10, 10, 0.801);
 }
 
 
