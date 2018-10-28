@@ -26,20 +26,20 @@ body {
 
 .title{
    border-radius: 12px;
-   background-color: rgb(230, 211, 103);
+   background-color: rgb(243, 217, 69);
    border: 2px solid;
    border-color:rgba(104, 16, 16, 0.938);
 }
 
 .header, .footer{
-    background-color: rgb(230, 211, 103);
+    background-color:rgb(243, 217, 69);
     border-radius: 12px;
     border-style: outset;
     border-color:rgba(104, 16, 16, 0.938);
 }
 
 .menu {
-    background-color: rgb(230, 211, 103);
+    background-color: rgb(243, 217, 69);
     border-left: outset;
     border-right: 2px solid;
     border-color:rgba(104, 16, 16, 0.938);
@@ -49,7 +49,7 @@ body {
     background-image: linear-gradient(  to bottom right,
         rgba(104, 16, 16, 0.938),
         rgb(187, 179, 118), 
-        rgb(211, 198, 104), 
+        rgb(243, 217, 69), 
         rgba(104, 16, 16, 0.938)
         );
     border: 0px;

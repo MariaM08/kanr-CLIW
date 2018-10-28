@@ -1,0 +1,43 @@
+.object-properties>h2{
+    font-size: 1.4vw;
+    color: rgb(70, 8, 8);
+    text-align: center;
+    margin:0%;
+    margin-top:15%;
+}
+.object-properties>p{
+    font-size: 1.3vw;
+    margin:0%;
+    margin-left: 7%;
+    margin-top:3%;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+.rotation{
+    display:inline-grid;
+    grid-gap: 5px 8px;
+    grid-template-columns: auto auto auto;
+    cursor:pointer;
+    margin: 0%;
+    margin-left:30%;
+  }
+  .rotation-item{
+    background-color:rgb(231, 150, 43);
+    border: 1.2px inset brown;
+    padding: 4px; 
+  }
+  .rotation-item:hover{
+    background-color:rgb(219, 17, 17);
+    border: 1.2px outset rgb(163, 165, 42);
+    padding: 2px; 
+}
+.resize, .scale, .translate{
+    border:2px dotted brown;
+    padding:0%;
+    padding-top:2%;
+    padding-left:5%;
+    opacity:0.9;
+}
+.point>input{
+    cursor: pointer;
+    width: 5.5%;
+}
