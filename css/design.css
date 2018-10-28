@@ -1,3 +1,12 @@
+@import "base-components.css";
+@import "text-fonts.css";
+@import "preview-component.css";
+
+/* DESIGN */
+@import "menu-design.css";
+@import "menu-tab-design.css";
+
+
 body {
     background-image: radial-gradient( 
         rgba(90, 12, 12, 0.774),
@@ -61,3 +70,10 @@ body {
 .controls i {
     color: rgb(23, 27, 12);
 }
+
+/* <link rel="stylesheet" type="text/css" href="./css/menu-design.css">
+<link rel="stylesheet" type="text/css" href="./css/menu-tab-design.css">
+
+<link rel="stylesheet" type="text/css" href="./css/base-components.css">
+<link rel="stylesheet" type="text/css" href="./css/preview-component.css">
+<link rel="stylesheet" type="text/css" href="./css/text-fonts.css"> */
