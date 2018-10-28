@@ -1,11 +1,8 @@
-body {
-  font-size: 100%;
-  font-family: 'Mali', cursive;
+.title {
+  padding: 5vh 0vh;
 }
-
 .title>p {
-  padding-top: 9vw;
-  font-size: 1.2vw; 
+  font-size: 1.5vw; 
   white-space: nowrap;
   writing-mode: vertical-rl;
   text-orientation: upright;

@@ -4,6 +4,13 @@
     position:relative;
 }
 
+#logo-wrapper {
+    z-index: 90;
+    width: 8vw;
+    position: relative;
+    left: -1vw;
+}
+
 .controls {
     grid-row: 2;
     display: grid;
@@ -30,3 +37,4 @@
     font-size: 90%;
     cursor: pointer;
 }
+

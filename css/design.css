@@ -1,10 +1,9 @@
 @import "base-components.css";
-@import "text-fonts.css";
-@import "preview-component.css";
-
-/* DESIGN */
+@import "header-design.css";
+@import "title-design.css";
 @import "menu-design.css";
 @import "menu-tab-design.css";
+@import "preview-design.css";
 
 
 body {
@@ -70,10 +69,3 @@ body {
 .controls i {
     color: rgb(23, 27, 12);
 }
-
-/* <link rel="stylesheet" type="text/css" href="./css/menu-design.css">
-<link rel="stylesheet" type="text/css" href="./css/menu-tab-design.css">
-
-<link rel="stylesheet" type="text/css" href="./css/base-components.css">
-<link rel="stylesheet" type="text/css" href="./css/preview-component.css">
-<link rel="stylesheet" type="text/css" href="./css/text-fonts.css"> */
