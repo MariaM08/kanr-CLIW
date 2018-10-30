@@ -47,7 +47,9 @@
     position: absolute;
     left: -1vw;
     display: block;
+    cursor: pointer;
 }
+
 .object-wrapper {
     padding: 0vh 2vw;
     position: absolute;
@@ -57,10 +59,8 @@
     text-align: center;
 }
 .object-wrapper>i {
-    font-size: 2vw;
-}
-.object-wrapper>.fa-square {
     font-size: 8vw;
+    cursor: pointer;
     color: blue;
     position: relative;
 }

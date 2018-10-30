@@ -28,6 +28,7 @@
     margin-top:20%;
     margin-left:10%;
     margin-right:10%;
+    cursor:pointer;
 }
 .first-border>img {
     width: 90%;
@@ -42,6 +43,7 @@
     margin-top:15%;
     margin-left:10%;
     margin-right:10%;
+    cursor:pointer;
 }
 .second-border>img {
     width: 90%;

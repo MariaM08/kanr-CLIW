@@ -30,7 +30,6 @@
   border: 1px outset rgb(133, 0, 0);
   cursor:pointer;
 }
-
 .animation-properties input[type='radio']:checked:after {
   background-color: #c9442d;
   border: 2px solid rgb(245, 234, 78);

@@ -2,6 +2,7 @@
   padding: 5vh 0.3vw;
 }
 .title>h1 {
+  user-select: none; 
   padding: 0px;
   margin: 0px;
   font-size: 1.5vw; 
