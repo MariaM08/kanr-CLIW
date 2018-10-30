@@ -1,15 +1,14 @@
 .title {
   padding: 5vh 0.3vw;
 }
+
 .title>h1 {
-  user-select: none; 
+  user-select: none;
   padding: 0px;
   margin: 0px;
-  font-size: 1.5vw; 
+  font-size: 1.5vw;
   white-space: nowrap;
   writing-mode: vertical-rl;
   text-orientation: upright;
   text-shadow: 1px 1.4px rgba(59, 10, 10, 0.801);
 }
-
-

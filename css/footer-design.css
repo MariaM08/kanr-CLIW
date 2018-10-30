@@ -5,12 +5,12 @@
     margin: 0px;
 }
 
-.footer .instructions{
+.footer .instructions {
     text-align: center;
     color: rgb(105, 39, 18);
 }
 
-.footer .links{
+.footer .links {
     text-align: right;
     margin-right: 3%;
 }
@@ -20,14 +20,17 @@
     font-size: 2vh;
     display: inline;
 }
+
 .instructions i {
     padding: 0.4vh 0vh;
     font-size: 2vh;
     color: black;
 }
+
 .links p {
     font-size: 1.4vh;
 }
+
 .links a {
     text-decoration: none;
     color: brown;

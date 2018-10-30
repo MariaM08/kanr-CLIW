@@ -1,8 +1,9 @@
 .preview {
     display: grid;
-    grid-template: 75vh 5vh  / 1fr;
-    position:relative;
+    grid-template: 75vh 5vh / 1fr;
+    position: relative;
 }
+
 .controls {
     grid-row: 2;
     display: grid;
@@ -16,7 +17,7 @@
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
     display: grid;
-    grid-template: 1fr / repeat(100,1fr);
+    grid-template: 1fr / repeat(100, 1fr);
     height: 2vh;
     margin: 0.5vh 1vw;
     cursor: pointer;
@@ -58,6 +59,7 @@
     left: 10vw;
     text-align: center;
 }
+
 .object-wrapper>i {
     font-size: 8vw;
     cursor: pointer;

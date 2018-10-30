@@ -15,7 +15,7 @@
 }
 
 .menu button i {
-    background-image: linear-gradient(to left,rgb(129, 18, 18),yellow);
+    background-image: linear-gradient(to left, rgb(129, 18, 18), yellow);
     color: #111111;
     font-size: 1.6vw;
     padding: 0.4vw;
@@ -28,18 +28,14 @@
 }
 
 .menu .selected>i {
-    background-image: linear-gradient(to right,rgb(129, 18, 18),yellow);
+    background-image: linear-gradient(to right, rgb(129, 18, 18), yellow);
     box-shadow: -4px -4px rgba(134, 5, 5, 0.801);
 }
 
-.menu .selected .tooltip-create,
-.menu .layer .tooltip-layer,
-.menu .object .tooltip-object,
-.menu .animate .tooltip-animate,
-.menu .export .tooltip-export{
+.menu .selected .tooltip-create, .menu .layer .tooltip-layer, .menu .object .tooltip-object, .menu .animate .tooltip-animate, .menu .export .tooltip-export {
     visibility: hidden;
-    width: 6.5vw; 
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 6.5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(92, 35, 31);
     color: rgb(250, 248, 186);
     text-align: center;
@@ -48,12 +44,9 @@
     opacity: 0.8;
     position: absolute;
     transition: opacity 1s;
-   z-index: 1; 
+    z-index: 1;
 }
-.menu .selected:hover .tooltip-create,
-.menu .layer:hover .tooltip-layer,
-.menu .object:hover .tooltip-object,
-.menu .animate:hover .tooltip-animate,
-.menu .export:hover .tooltip-export{
+
+.menu .selected:hover .tooltip-create, .menu .layer:hover .tooltip-layer, .menu .object:hover .tooltip-object, .menu .animate:hover .tooltip-animate, .menu .export:hover .tooltip-export {
     visibility: visible;
 }

@@ -2,7 +2,6 @@
 @import "menu-tab-create-layer.css";
 @import "menu-tab-object-properties.css";
 @import "menu-tab-animations-properties.css";
-
 .menu-tab {
     overflow: scroll;
     overflow-x: hidden;
@@ -15,13 +14,13 @@
 ::-webkit-scrollbar-track {
     border-radius: 12px;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-    background: rgba(202, 189, 5, 0.431); 
+    background: rgba(202, 189, 5, 0.431);
     border-radius: 12px;
     border: 1px solid;
-} 
+}
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #704318; 
+    background: #704318;
 }

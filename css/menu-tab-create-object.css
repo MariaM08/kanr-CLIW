@@ -1,51 +1,57 @@
-.create-object> button{
+.create-object>button {
     background-color: rgb(143, 52, 36);
-    color:rgb(233, 213, 206);
+    color: rgb(233, 213, 206);
     padding: 4px 5px;
-    font-size:1.2vw;
+    font-size: 1.2vw;
     border: 1px solid black;
     display: inline-block;
-    border-radius:8px;
+    border-radius: 8px;
     margin-top: 30%;
     margin-left: 25%;
     text-align: center;
-    cursor:pointer;
-    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.buttons>button:hover{
-    background-color: rgb(230, 227, 105); 
-    color: black; 
+
+.buttons>button:hover {
+    background-color: rgb(230, 227, 105);
+    color: black;
 }
-.buttons>button:focus{
+
+.buttons>button:focus {
     outline: none;
 }
-.first-border{
+
+.first-border {
     border: 2px inset rgb(112, 53, 53);
     padding-left: 18%;
-    padding-right:10%;
+    padding-right: 10%;
     padding-top: 5%;
-    padding-bottom:5%;
-    margin-top:20%;
-    margin-left:10%;
-    margin-right:10%;
-    cursor:pointer;
+    padding-bottom: 5%;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
 }
+
 .first-border>img {
     width: 90%;
-    cursor:pointer;
+    cursor: pointer;
 }
-.second-border{
+
+.second-border {
     border: 2px inset rgb(112, 53, 53);
     padding-left: 18%;
-    padding-right:10%;
+    padding-right: 10%;
     padding-top: 5%;
-    padding-bottom:5%;
-    margin-top:15%;
-    margin-left:10%;
-    margin-right:10%;
-    cursor:pointer;
+    padding-bottom: 5%;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
 }
+
 .second-border>img {
     width: 90%;
-    cursor:pointer;
+    cursor: pointer;
 }

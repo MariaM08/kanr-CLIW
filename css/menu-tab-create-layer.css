@@ -5,16 +5,14 @@
     padding: 2vh 1vw;
     position: relative;
 }
+
 .create-layer .layer {
-    background-image: radial-gradient(  
-        #C7D59F,
-        rgb(187, 179, 118), 
-        rgb(211, 198, 104)
-        );
+    background-image: radial-gradient( #C7D59F, rgb(187, 179, 118), rgb(211, 198, 104));
     border: 2px solid;
     cursor: pointer;
     height: 12vh;
 }
+
 .create-layer .layer img {
     width: 30%;
     position: relative;
@@ -26,11 +24,11 @@
     box-shadow: 4px 4px rgba(231, 218, 32, 0.712);
 }
 
-.create-layer button{
+.create-layer button {
     font-size: 1.3vw;
 }
 
-.create-layer button i{
+.create-layer button i {
     font-size: 3vw;
     display: block;
     color: rgba(160, 151, 28, 0.911);
