@@ -13,6 +13,7 @@
         );
     border: 2px solid;
     cursor: pointer;
+    height: 12vh;
 }
 .create-layer .layer img {
     width: 30%;

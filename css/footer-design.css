@@ -1,0 +1,34 @@
+.footer {
+    display: grid;
+    grid-template: 1fr / 41fr 11fr;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer .instructions{
+    text-align: center;
+    color: rgb(105, 39, 18);
+}
+
+.footer .links{
+    text-align: right;
+    margin-right: 3%;
+}
+
+.instructions p {
+    padding: 0.4vh 0vh;
+    font-size: 2vh;
+    display: inline;
+}
+.instructions i {
+    padding: 0.4vh 0vh;
+    font-size: 2vh;
+    color: black;
+}
+.links p {
+    font-size: 1.4vh;
+}
+.links a {
+    text-decoration: none;
+    color: rgb(56, 11, 11);
+}

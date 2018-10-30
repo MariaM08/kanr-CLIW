@@ -4,7 +4,12 @@
 @import "menu-design.css";
 @import "menu-tab-design.css";
 @import "preview-design.css";
+@import "footer-design.css";
 
+p {
+    padding: 0px;
+    margin: 0px;
+}
 
 body {
     background-image: radial-gradient( 
