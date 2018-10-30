@@ -3,6 +3,7 @@
     grid-auto-rows: 1fr;
     grid-gap: 3vh;
     padding: 2vh 1vw;
+    position: relative;
 }
 .create-layer .layer {
     background-image: radial-gradient(  
@@ -14,9 +15,10 @@
     cursor: pointer;
 }
 .create-layer .layer img {
-    width: 7vw;
+    width: 30%;
     position: relative;
-    left: 45px;
+    left: 30%;
+    top: 5%;
 }
 
 .create-layer .current {
