@@ -28,8 +28,26 @@
     margin-top:3%;
    
 }
-.object-properties input{
-height:20%;
-width: 30%;
+
+ .object-properties input[type="number"] {
+    border:none;
+	border-bottom: 1px solid red;
+	outline:none;
+    height:15px;
+    width: 40px;
+    border-radius: 4px;
+    background-color: rgb(228, 222, 141);
+}
+.object-properties input[type="color"] {
+    border:none;
+	border-bottom: 1px solid red;
+	outline:none;
+    height:15px;
+    width: 40px;
+    border-radius: 1px;
+    background-color: rgb(228, 225, 187);
+}
+.object-properties input[type="range"] {
+    cursor:pointer;
 }
 

@@ -83,25 +83,25 @@
        <i class="fas fa-expand-arrows-alt"></i>
        <i class="fas fa-expand"></i>  	
        <br>
-       
-       <p class="rotation"> 
-         <p> Rotation  <input type="number" min="1" max="200" ></p><br>
-         <p>Color <input type="color" ></p>
-         <p>Opacity <input type="range"  ></p><br>
 
-         <p>Scale: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
-         <p class="Y">  Y: <input type="number" min="0.0" max="200.0"></p><br>
-         <p> Skew: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
-         <p class="Y"> Y: <input type="number" min="0.0" max="200.0" ></p><br>
-         <p>Translate: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
-         <p id="translate-y">  Y: <input type="number" min="0.0" max="200.0" ></p><br>
-         <p> Position: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
-         <p id="position-y"> Y: <input type="number" min="0.0" max="200.0" ></p><br>
+         <p> Rotation  <input type="number" min="1" max="200" step="0.01" ></p><br>
+         <p>Color <input type="color" name="favcolor" value="#ff00000"></p><br>
+         <p>Opacity <input type="range" min="0.0" max="1.0" step="0.01"></p><br>
+
+         <p>Scale: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
+         <p class="Y">  Y: <input type="number" min="0.0" max="200.0" step="0.01"></p><br>
+         <p> Skew: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
+         <p class="Y"> Y: <input type="number" min="0.0" max="200.0" step="0.01"></p><br>
+         <p>Translate: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
+         <p id="translate-y">  Y: <input type="number" min="0.0" max="200.0" step="0.01"></p><br>
+         <p> Position: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01"></p>
+         <p id="position-y"> Y: <input type="number" min="0.0" max="200.0" step="0.01" ></p><br>
        </div>
        -->
+     
        <div class="animation-properties">
         <h2>Animation properties</h2><br><br>
-         <p> Duration <input type="number" min="1" max="200" > sec. </p>
+         <p> Duration <input type="number" min="1" max="200" step="0.01" > sec. </p>
          <button> Traiectory <i class="fas fa-directions"></i></button><br>
           <p> Timing function: </p>
            <input type="radio" name="timing" value="ease "> ease<br>
@@ -122,7 +122,9 @@
           <div class="rotation-item"></div>  
         </div> 
       </div>
+      
     </div>
+  
     <div class="footer">
      
     </div>
