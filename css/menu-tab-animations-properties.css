@@ -5,6 +5,42 @@
   margin:0%;
   margin-top:15%;
 }
+.animation-properties>p{
+  font-size: 1.2vw;
+  margin-left: 7%;
+  
+}
+.animation-properties label {
+  font-size: 1.2vw;
+  cursor:pointer;
+}
+.animation-properties input[type='radio']{
+  visibility: hidden;
+}
+.animation-properties input[type='radio']:after {
+  width: 0.8vw;
+  height: 0.8vw;
+  border-radius: 0.5vw; 
+  position: relative;
+  background-color: #ffee00;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 1px outset rgb(133, 0, 0);
+ cursor:pointer;
+}
+
+.animation-properties input[type='radio']:checked:after {
+  width: 0.8vw;
+  height: 0.8vw;
+  border-radius: 0.5vw;
+  position: relative;
+  background-color: #c9442d;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid rgb(245, 234, 78);
+}
 .animation-properties> button{
   background-color: rgb(177, 73, 47);
   color:rgb(233, 213, 206);
@@ -34,7 +70,7 @@
   .rotation-item{
     background-color:rgb(231, 150, 43);
     border: 1.2px inset brown;
-    padding: 4px; 
+    padding: 0.4vw; 
   }
   .rotation-item:hover{
     background-color:rgb(219, 17, 17);
@@ -45,8 +81,13 @@
   border:none;
 border-bottom: 1px solid red;
 outline:none;
-  height:15px;
-  width: 50px;
+  height:1.2vw;
+  width: 5vw;
   border-radius: 4px;
   background-color: rgb(228, 222, 141);
+}
+.animation-properties input[type="number"]:focus
+{
+	border-bottom: 2px solid rgb(80, 2, 2);
+
 }
