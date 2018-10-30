@@ -60,7 +60,7 @@
             <div class="second-border"><img src="./images/logo.svg" alt="kanr_logo"></div>
           </div>
         
-       <div class="create-layer" >
+       <div class="create-layer" style="display: none" >
                 <button class="layer"><i class="far fa-plus-square"></i> Add Layer</button>
                 <div class="layer current"></div>
                 <div class="layer"><img src="./images/logo.svg" alt="kanr_logo"></div>
@@ -70,25 +70,26 @@
                 <div class="layer"><img src="./images/logo.svg" alt="kanr_logo"></div>
         </div> 
     
-      <div class="object-properties" style="display: none">
+      <div class="object-properties" >
         <h2>Object properties</h2>
         <label class="left">  <i class='fas fa-arrow-left'></i><span class="tooltip-left">Move to left</span></label>
         <label class="right">  <i class='fas fa-arrow-right' ></i><span class="tooltip-right">Move to right</span></label>
-        <label class="up">  <i class='fas fa-arrow-up' ></i><span class="tooltip-up">Move to up</span></label>
-        <label class="down">  <i class='fas fa-arrow-down' ></i><span class="tooltip-down">Move to down</span></label>
+        <label class="up">  <i class='fas fa-arrow-up' ></i><span class="tooltip-up">Move to top</span></label>
+        <label class="down">  <i class='fas fa-arrow-down' ></i><span class="tooltip-down">Move to bottom</span></label>
         <label class="in">  <i class="fas fa-expand"></i><span class="tooltip-in">Resize</span></label>  	
-      
-        <p> Rotation  <input type="number" min="1" max="200" step="0.01" ><i class="fas fa-sync-alt"></i></p> 
-        <p>Color <input type="color" name="favcolor"></p>
-        <p>Opacity <input type="range" min="0.0" max="1.0" step="0.01"></p>
-        <p>Translate: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
-        <p class="translate-y">  Y: <input type="number" min="0.0" max="200.0" step="0.01"></p>
-        <p>Scale: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
-        <p class="Y">  Y: <input type="number" min="0.0" max="200.0" step="0.01"></p>
-        <p> Skew: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
-        <p class="Y"> Y: <input type="number" min="0.0" max="200.0" step="0.01"></p>
-        <p> Position: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01"></p>
-        <p class="position-y"> Y: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
+        <label class="rotate"> <i class="fas fa-sync-alt"></i><span class="tooltip-rotate">Rotate by 45deg</span></label>
+
+        <p></i>Rotation:&nbsp;<input type="number" min="1" max="200" step="0.01" value="0"></p> 
+        <p>Color:&nbsp;<input type="color" name="favcolor"></p>
+        <p>Opacity:<br/><input type="range" min="0.0" max="1.0" step="0.01"></p>
+        <p>Translate:<br/>X:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
+        <p>Y:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
+        <p>Scale:<br/>X:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
+        <p>Y:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
+        <p>Position:<br/>X:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
+        <p>Y:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
+        <p>Skew:<br/>X:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01"value="5"></p>
+        <p>Y:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
       </div>
       
      

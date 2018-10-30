@@ -16,7 +16,9 @@
     background-color: rgb(230, 227, 105); 
     color: black; 
 }
-
+.buttons>button:focus{
+    outline: none;
+}
 .first-border{
     border: 2px inset rgb(112, 53, 53);
     padding-left: 18%;
