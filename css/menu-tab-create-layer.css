@@ -15,8 +15,8 @@
 }
 .create-layer .layer img {
     width: 7vw;
-    position: relative;
-    left: 45px;
+    position: absolute;
+    left: 5px;
 }
 
 .create-layer .current {

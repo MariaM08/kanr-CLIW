@@ -25,104 +25,96 @@
             <img id="logo-wrapper" src="./images/logo.svg" alt="kanr_logo">
             <div class="monitor">
              <div class="object-wrapper">
-                        <!-- <i class="fas fa-arrows-alt"></i>
-                       <i class="fas fa-caret-up"></i>
-                     -->
                      <i class="fas fa-square"></i>
-                     
-                       <!-- <i class="fas fa-caret-right"></i>
-                       <i class="fas fa-caret-down"></i>
-                       <i class="fas fa-caret-left"></i> -->
-                     </div> 
-                   </div>
-                   <div class='controls'>
-                    <span><i class="fas fa-play-circle" type='button' onclick="somescript"></i></span>
-                    <span><i class="fas fa-pause-circle"></i></span>
-                    <span><i class="fas fa-stop"></i></span>
-                    <div class='progress-bar'>
-                      <div class='filled-bar'>
+              </div> 
+              </div>
+              <div class='controls'>
+              <span><i class="fas fa-play-circle" type='button' onclick="somescript"></i></span>
+              <span><i class="fas fa-pause-circle"></i></span>
+              <span><i class="fas fa-stop"></i></span>
+              <div class='progress-bar'>
+                <div class='filled-bar'>
 
-                      </div>      
-                    </div>  
-                    <span><i class="fas fa-trash"></i></span>
-                  </div>
-                </div>
-
+                </div>      
+              </div>  
+              <span><i class="fas fa-trash"></i></span>
+            </div>
+          </div>
                 <div class="menu">
                   <button class='selected'><i class="fas fa-shapes" id="new-object"></i></button>        
                   <button><i class="fas fa-layer-group" id="new-layer"></i></button>
                   <button><i class="fas fa-crop" id="edit-object" ></i></button>
                   <button><i class="fas fa-bezier-curve" id="edit-animation"></i></button>
                   <button></span>
-                    <button><i class="fas fa-download" id="export"></i></button>
-                  </div>
+                  <button><i class="fas fa-download" id="export"></i></button>
+                </div>
+      <div class="menu-tab">
 
-                  <div class="menu-tab">
-        <!--<div class="create-object buttons">
+          <div class="create-object buttons" style="display: none;">
             <button> Create <i class="fa fa-plus"></i></button>
             <div class="first-border"><img src="./images/logo.svg" alt="kanr_logo"></div>
             <div class="second-border"><img src="./images/logo.svg" alt="kanr_logo"></div>
-          </div>-->
-        <!--
-       <div class="create-layer">
-                <button class="layer"><i class="far fa-plus-square"></i> Add Layer</button>
-                <div class="layer current"></div>
-                <div class="layer"><img src="./images/logo.svg"></div>
-                <div class="layer"><img src="./images/logo.svg"></div>
-                <div class="layer"><img src="./images/logo.svg"></div>
-                <div class="layer"><img src="./images/logo.svg"></div>
-                <div class="layer"><img src="./images/logo.svg"></div>
-        </div> 
-    
-      <div class="object-properties">
-       <h2>Object properties</h2><br><br>
-       <i class='fas fa-arrow-left'></i>
-       <i class='fas fa-arrow-right' ></i>
-       <i class='fas fa-arrow-up' ></i>
-       <i class='fas fa-arrow-down' ></i>
-       <i class="fas fa-expand-arrows-alt"></i>
-       <i class="fas fa-expand"></i>  	
-       <br>
-       
-       <p class="rotation"> 
-         <p> Rotation  <input type="number" min="1" max="200" ></p><br>
-         <p>Color <input type="color" ></p>
-         <p>Opacity <input type="range"  ></p><br>
+          </div>
 
-         <p>Scale: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
-         <p class="Y">  Y: <input type="number" min="0.0" max="200.0"></p><br>
-         <p> Skew: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
-         <p class="Y"> Y: <input type="number" min="0.0" max="200.0" ></p><br>
-         <p>Translate: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
-         <p id="translate-y">  Y: <input type="number" min="0.0" max="200.0" ></p><br>
-         <p> Position: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
-         <p id="position-y"> Y: <input type="number" min="0.0" max="200.0" ></p><br>
-       </div>
-       -->
-       <div class="animation-properties">
-        <h2>Animation properties</h2><br><br>
-         <p> Duration <input type="number" min="1" max="200" > sec. </p>
-         <button> Traiectory <i class="fas fa-directions"></i></button><br>
-          <p> Timing function: </p>
-           <input type="radio" name="timing" value="ease "> ease<br>
-           <input type="radio" name="timing" value="ease in"> ease in<br>
-           <input type="radio" name="timing" value="ease out"> ease out<br>
-           <input type="radio" name="timing" value="ease in-out"> ease in-out<br>
-           <input type="radio" name="timing" value="linear"> linear<br>  
-         <p>Rotation:</p>
-         <div class="rotation"> 
-          <div class="rotation-item"></div>
-          <div class="rotation-item"></div>
-          <div class="rotation-item"></div>  
-          <div class="rotation-item"></div>
-          <div class="rotation-item"></div>
-          <div class="rotation-item"></div>  
-          <div class="rotation-item"></div>
-          <div class="rotation-item"></div>
-          <div class="rotation-item"></div>  
-        </div> 
+          <div class="create-layer" style="display: none;">
+              <button class="layer"><i class="far fa-plus-square"></i> Add Layer</button>
+              <div class="layer current"></div>
+              <div class="layer"><img src="./images/logo.svg"></div>
+              <div class="layer"><img src="./images/logo.svg"></div>
+              <div class="layer"><img src="./images/logo.svg"></div>
+              <div class="layer"><img src="./images/logo.svg"></div>
+              <div class="layer"><img src="./images/logo.svg"></div>
+          </div> 
+
+          <div class="object-properties" style="display: none;">
+            <h2>Object properties</h2><br><br>
+            <i class='fas fa-arrow-left'></i>
+            <i class='fas fa-arrow-right' ></i>
+            <i class='fas fa-arrow-up' ></i>
+            <i class='fas fa-arrow-down' ></i>
+            <i class="fas fa-expand-arrows-alt"></i>
+            <i class="fas fa-expand"></i>  	
+            <br>
+            
+            <p class="rotation"> 
+            <p> Rotation  <input type="number" min="1" max="200" ></p><br>
+            <p>Color <input type="color" ></p>
+            <p>Opacity <input type="range"  ></p><br>
+
+            <p>Scale: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
+            <p class="Y">  Y: <input type="number" min="0.0" max="200.0"></p><br>
+            <p> Skew: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
+            <p class="Y"> Y: <input type="number" min="0.0" max="200.0" ></p><br>
+            <p>Translate: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
+            <p id="translate-y">  Y: <input type="number" min="0.0" max="200.0" ></p><br>
+            <p> Position: &nbsp; X: <input type="number" min="0.0" max="200.0" ></p>
+            <p id="position-y"> Y: <input type="number" min="0.0" max="200.0" ></p><br>
+          </div>
+
+          <div class="animation-properties" style="display: none;">
+            <h2>Animation properties</h2><br><br>
+            <p> Duration <input type="number" min="1" max="200" > sec. </p>
+            <button> Traiectory <i class="fas fa-directions"></i></button><br>
+                  <p> Timing function: </p>
+            <input type="radio" name="timing" value="ease "> ease<br>
+            <input type="radio" name="timing" value="ease in"> ease in<br>
+            <input type="radio" name="timing" value="ease out"> ease out<br>
+            <input type="radio" name="timing" value="ease in-out"> ease in-out<br>
+            <input type="radio" name="timing" value="linear"> linear<br>  
+                  <p>Rotation:</p>
+            <div class="rotation"> 
+              <div class="rotation-item"></div>
+              <div class="rotation-item"></div>
+              <div class="rotation-item"></div>  
+              <div class="rotation-item"></div>
+              <div class="rotation-item"></div>
+              <div class="rotation-item"></div>  
+              <div class="rotation-item"></div>
+              <div class="rotation-item"></div>
+              <div class="rotation-item"></div>  
+            </div> 
+           </div>
       </div>
-    </div>
     <div class="footer">
      
     </div>
