@@ -71,42 +71,38 @@
                 <div class="layer"><img src="./images/logo.svg"></div>
         </div> 
     
-      <div class="object-properties">
-       <h2>Object properties</h2><br><br>
+      <div class="object-properties" style="display: none">
+        <h2>Object properties</h2>
         <label class="left">  <i class='fas fa-arrow-left'></i><span class="tooltip-left">Move to left</span></label>
         <label class="right">  <i class='fas fa-arrow-right' ></i><span class="tooltip-right">Move to right</span></label>
         <label class="up">  <i class='fas fa-arrow-up' ></i><span class="tooltip-up">Move to up</span></label>
         <label class="down">  <i class='fas fa-arrow-down' ></i><span class="tooltip-down">Move to down</span></label>
-        <label class="out">  <i class="fas fa-expand-arrows-alt"></i><span class="tooltip-out">Resize out</span></label>
-        <label class="in">  <i class="fas fa-expand"></i><span class="tooltip-in">Resize in</span></label>  	
-       <br>
-
-         <p> Rotation  <input type="number" min="1" max="200" step="0.01" ></p><br>
-           <label class="tool-color"><p>Color <input type="color" name="favcolor" value="#ff00000"></p>
-           <span class="tooltip-color">Choose one</span></label><br>
-         <p>Opacity <input type="range" min="0.0" max="1.0" step="0.01"></p><br>
-
-         <p>Scale: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
-         <p class="Y">  Y: <input type="number" min="0.0" max="200.0" step="0.01"></p><br>
-         <p> Skew: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
-         <p class="Y"> Y: <input type="number" min="0.0" max="200.0" step="0.01"></p><br>
-         <p>Translate: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
-         <p id="translate-y">  Y: <input type="number" min="0.0" max="200.0" step="0.01"></p><br>
-         <p> Position: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01"></p>
-         <p id="position-y"> Y: <input type="number" min="0.0" max="200.0" step="0.01" ></p><br>
-       </div>
+        <label class="in">  <i class="fas fa-expand"></i><span class="tooltip-in">Resize</span></label>  	
+      
+        <p> Rotation  <input type="number" min="1" max="200" step="0.01" ><i class="fas fa-sync-alt"></i></p> 
+        <p>Color <input type="color" name="favcolor" value="#ff00000"></p>
+        <p>Opacity <input type="range" min="0.0" max="1.0" step="0.01"></p>
+        <p>Translate: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
+        <p class="translate-y">  Y: <input type="number" min="0.0" max="200.0" step="0.01"></p>
+        <p>Scale: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
+        <p class="Y">  Y: <input type="number" min="0.0" max="200.0" step="0.01"></p>
+        <p> Skew: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
+        <p class="Y"> Y: <input type="number" min="0.0" max="200.0" step="0.01"></p>
+        <p> Position: &nbsp; X: <input type="number" min="0.0" max="200.0" step="0.01"></p>
+        <p class="position-y"> Y: <input type="number" min="0.0" max="200.0" step="0.01" ></p>
+      </div>
       
      
        <div class="animation-properties" style="display: none;">
-        <h2>Animation properties</h2><br><br>
+        <h2>Animation properties</h2>
          <p> Duration <input type="number" min="1" max="200" step="0.01" > sec. </p>
-         <button> Traiectory <i class="fas fa-directions"></i></button><br>
+         <button> Traiectory <i class="fas fa-directions"></i></button>
           <p> Timing function: </p>
-           <label><input type="radio" name="timing" value="ease "> ease </label><br>
-           <label> <input type="radio" name="timing" value="ease in"> ease in</label><br>
-           <label> <input type="radio" name="timing" value="ease out"> ease out</label><br>
-           <label> <input type="radio" name="timing" value="ease in-out"> ease in-out</label><br>
-           <label> <input type="radio" name="timing" value="linear"> linear</label><br>  
+           <label> <input type="radio" name="timing" value="ease "> ease </label>
+           <label> <input type="radio" name="timing" value="ease in"> ease in</label>
+           <label> <input type="radio" name="timing" value="ease out"> ease out</label>
+           <label> <input type="radio" name="timing" value="ease in-out"> ease in-out</label>
+           <label> <input type="radio" name="timing" value="linear"> linear</label>  
          <p>Rotation:</p>
          <div class="rotation"> 
           <div class="rotation-item"></div>

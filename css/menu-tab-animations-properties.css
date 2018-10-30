@@ -13,6 +13,7 @@
 .animation-properties label {
   font-size: 1.2vw;
   cursor:pointer;
+  display: block;
 }
 .animation-properties input[type='radio']{
   visibility: hidden;
@@ -56,8 +57,6 @@
 .animation-properties>button:hover{
   background-color: rgb(230, 227, 105); 
   color: black; 
-  border: 2px solid rgb(48, 3, 38);
-  font-family:"Open Sans";
 }
 .rotation{
     display:inline-grid;
@@ -88,6 +87,5 @@ outline:none;
 }
 .animation-properties input[type="number"]:focus
 {
-	border-bottom: 2px solid rgb(80, 2, 2);
-
+  border-bottom: 2px solid rgb(80, 2, 2);
 }

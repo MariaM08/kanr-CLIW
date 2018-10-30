@@ -1,23 +1,28 @@
+.object-properties {
+    text-align: center;
+}
 .object-properties>h2{
     font-size: 1.4vw;
     color: rgb(70, 8, 8);
     text-align: center;
     margin:0%;
-    margin-top:15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .object-properties>p{
     font-size: 1.2vw;
     margin:0%;
     margin-left: 7%;
+    margin-bottom: 6%;
     
 }
 .object-properties>.Y{
     margin-left: 36.5%;
 }
-.object-properties>#translate-y{
+.object-properties>.translate-y{
     margin-left: 53%;  
 }
-.object-properties>#position-y{
+.object-properties>.position-y{
     margin-left: 46%;  
 }
 .object-properties  i{
@@ -61,9 +66,7 @@
  .object-properties .right .tooltip-right,
  .object-properties .up .tooltip-up,
  .object-properties .down .tooltip-down,
- .object-properties .in .tooltip-in,
- .object-properties .out .tooltip-out,
- .object-properties .tool-color .tooltip-color{
+ .object-properties .in .tooltip-in {
     visibility: hidden;
     width: 6.5vw; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -75,14 +78,12 @@
     opacity: 0.8;
     position: absolute;
     transition: opacity 1s;
-   z-index: 1; 
+    z-index: 1; 
 }
 .object-properties .left:hover .tooltip-left,
 .object-properties .right:hover .tooltip-right,
 .object-properties .up:hover .tooltip-up,
 .object-properties .down:hover .tooltip-down,
-.object-properties .in:hover .tooltip-in,
-.object-properties .out:hover .tooltip-out,
-.object-properties .tool-color:hover .tooltip-color{
+.object-properties .in:hover .tooltip-in {
     visibility: visible;
 }

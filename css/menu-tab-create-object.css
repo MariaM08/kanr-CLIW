@@ -15,8 +15,6 @@
 .buttons>button:hover{
     background-color: rgb(230, 227, 105); 
     color: black; 
-    border: 2px solid rgb(48, 3, 38);
-    font-family:"Open Sans";
 }
 
 .first-border{
