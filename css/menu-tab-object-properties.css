@@ -40,7 +40,7 @@
 }
 .object-properties input[type="color"] {
     border:none;
-	border-bottom: 1px solid red;
+	border-bottom: 1px dotted red;
 	outline:none;
     height:15px;
     width: 40px;
@@ -50,4 +50,8 @@
 .object-properties input[type="range"] {
     cursor:pointer;
 }
+.object-properties input[type="number"]:focus
+{
+	border-bottom: 2px solid rgb(80, 2, 2);
 
+}
