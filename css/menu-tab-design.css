@@ -1,8 +1,7 @@
 @import "menu-tab-create-object.css";
 @import "menu-tab-create-layer.css";
-@import "menu-tab-edit-object.css";
-@import "menu-tab-edit-animation.css";
 @import "menu-tab-object-properties.css";
+@import "menu-tab-animations-properties.css";
 
 .menu-tab {
     overflow: scroll;
