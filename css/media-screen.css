@@ -1,18 +1,17 @@
 @media (min-width: 568px) and (max-width: 850px) and (orientation: landscape){
- 
-    .title>h1{
-     font-size:1.5vw;
-     font-family: Arial, Helvetica, sans-serif;
-     text-shadow: none;
-  }
-  .controls i {
+.title>h1{
+    font-size:1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: none;
+}
+.controls i {
     color: rgb(110, 8, 8);
-    font-size: small;
-    margin: 0.1vh 0.2vw;
+    font-size: x-small;
+    padding: 0vw 0.1vw 1.5vw 0vw;
 }
 .controls{
     padding:  0.5vh 0.5vw;
-   align-items: center;
+    align-items: center;
 }
 .progress-bar{                                                             
     height: 1vh; 
@@ -32,5 +31,24 @@
 #logo-wrapper{
     width: 5vw;
 }
+}
 
+@media (max-width: 567px) {
+.wrapper {
+    display: none;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+}
+#portrait-warning {
+    display: block;
+    text-align: center;
+}
+#portrait-warning p{
+    font-size: 5vh;
+    padding: 30vh 0vh;
+}
 }
