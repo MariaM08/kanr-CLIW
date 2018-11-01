@@ -45,7 +45,7 @@
     position: absolute;
     transition: opacity 1s;
     z-index: 1;
-    font-size:1vw;
+    font-size: 1vw;
 }
 
 .menu .selected:hover .tooltip-create, .menu .layer:hover .tooltip-layer, .menu .object:hover .tooltip-object, .menu .animate:hover .tooltip-animate, .menu .export:hover .tooltip-export {

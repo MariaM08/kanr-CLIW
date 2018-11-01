@@ -1,8 +1,6 @@
-
 @import "normalize.css/normalize.css";
 @import "../fonts/roboto.css";
 @import "../fonts/roboto-mono.css";
-
 /*
   XXX
   figure styles
@@ -18,37 +16,46 @@ body {
 }
 
 /* headers & headings */
-header > h1 {
+
+header>h1 {
   margin: 0;
   font-size: 3em;
   padding-top: 4em;
 }
+
 div.banner {
   display: flex;
   justify-content: space-between;
 }
-div.banner > img {
+
+div.banner>img {
   height: 100%;
 }
-div.banner > div.status {
+
+div.banner>div.status {
   color: #fff;
   background: #9400bf;
   width: 350px;
   padding: 10px;
   text-align: right;
 }
+
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.0375em;
 }
+
 h1, h2 {
   color: #4b0061;
 }
+
 h2 {
   margin-top: 3em;
 }
+
 h3 {
   margin-top: 2.5em;
 }
+
 h4 {
   font-weight: 300;
   font-size: 1.2em;
@@ -57,20 +64,25 @@ h4 {
 }
 
 /* contentinfo */
+
 [role="contentinfo"] a {
   text-decoration: none;
 }
+
 ol[role="directory"], [role="directory"] ol {
   list-style-type: none;
 }
+
 [role="contentinfo"] dt {
   font-weight: bold;
 }
+
 [role="contentinfo"] dd {
   margin-bottom: 1em;
 }
 
 /* link types */
+
 a.onto {
   font-family: "Roboto Mono", monospace;
   text-decoration: none;
@@ -79,11 +91,13 @@ a.onto {
 }
 
 /* code */
+
 code, pre {
   font-family: "Roboto Mono", monospace;
 }
 
 /* special boxes */
+
 p.issue {
   border-left: 3px solid red;
   padding: 0.5em 1em;
@@ -94,6 +108,7 @@ p.issue {
     width: auto;
   }
 }
+
 @media screen and (max-width: 980px) {
   body {
     margin: 0 2em;
