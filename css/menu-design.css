@@ -32,7 +32,12 @@
     box-shadow: -4px -4px rgba(134, 5, 5, 0.801);
 }
 
-.menu .selected .tooltip-create, .menu .layer .tooltip-layer, .menu .object .tooltip-object, .menu .animate .tooltip-animate, .menu .export .tooltip-export {
+.menu .create .tooltip-create, 
+.menu .layer .tooltip-layer, 
+.menu .object .tooltip-object, 
+.menu .animate .tooltip-animate,
+.menu .export .tooltip-export,
+.menu .playall .tooltip-playall{
     visibility: hidden;
     width: 10vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -48,6 +53,11 @@
     font-size: 1vw;
 }
 
-.menu .selected:hover .tooltip-create, .menu .layer:hover .tooltip-layer, .menu .object:hover .tooltip-object, .menu .animate:hover .tooltip-animate, .menu .export:hover .tooltip-export {
+.menu .create:hover .tooltip-create,
+.menu .layer:hover .tooltip-layer,
+.menu .object:hover .tooltip-object,
+.menu .animate:hover .tooltip-animate,
+.menu .export:hover .tooltip-export,  
+.menu .playall:hover .tooltip-playall {
     visibility: visible;
 }

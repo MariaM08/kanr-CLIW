@@ -12,7 +12,7 @@
 .object-properties>p {
     font-size: 1vw;
     margin: 4% 2%;
-    display: inline-block;
+    display: block;
 }
 
 .object-properties i {

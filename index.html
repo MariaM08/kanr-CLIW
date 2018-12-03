@@ -45,28 +45,34 @@
     </div>
 
     <div class="menu">
-      <button class='selected'><i class="fas fa-shapes" id="new-object"></i>
+      <button class='create selected'><i class="fas fa-shapes" onclick="displayElement(this,'create-object')"></i>
         <span class="tooltip-create">Create object</span></button>
-      <button class='layer'><i class="fas fa-layer-group" id="new-layer"></i>
+
+      <button class='layer'><i class="fas fa-layer-group" onclick="displayElement(this,'create-layer')"></i>
         <span class="tooltip-layer">Layers</span></button>
-      <button class='object'><i class="fas fa-crop" id="edit-object"></i>
+
+      <button class='object'><i class="fas fa-crop" onclick="displayElement(this,'object-properties')"></i>
         <span class="tooltip-object">Object properties</span></button>
-      <button class='animate'><i class="fas fa-bezier-curve" id="edit-animation"></i>
+
+      <button class='animate'><i class="fas fa-bezier-curve" onclick="displayElement(this,'animation-properties')"></i>
         <span class="tooltip-animate">Animation properties</span></button>
-      <button></button>
-      <button class='export'><i class="fas fa-download" id="export"></i>
+
+      <button class='playall'><i class="fas fa-play-circle"></i>
+        <span class="tooltip-playall">Play Animation</span></button>
+
+      <button class='export'><i class="fas fa-download"></i>
         <span class="tooltip-export">Export</span></button>
     </div>
 
     <div class="menu-tab">
 
-      <div class="create-object buttons" style="display: none">
+      <div class="menu-display create-object buttons" style="display: block" id='create-object'>
         <button> Create <i class="fa fa-plus"></i></button>
         <div class="first-border"><img src="./images/logo.svg" alt="kanr_logo"></div>
         <div class="second-border"><img src="./images/logo.svg" alt="kanr_logo"></div>
       </div>
 
-      <div class="create-layer" style="display: none">
+      <div class="menu-display create-layer" style="display: none" id='create-layer'>
         <button class="layer"><i class="far fa-plus-square"></i> Add Layer</button>
         <div class="layer current"></div>
         <div class="layer"><img src="./images/logo.svg" alt="kanr_logo"></div>
@@ -76,7 +82,7 @@
         <div class="layer"><img src="./images/logo.svg" alt="kanr_logo"></div>
       </div>
 
-      <div class="object-properties" style="display: none;">
+      <div class="menu-display object-properties" style="display: none" id='object-properties'>
         <h2>Object properties</h2>
         <label class="left"> <i class='fas fa-arrow-left'></i><span class="tooltip-left">Move to left</span></label>
         <label class="right"> <i class='fas fa-arrow-right'></i><span class="tooltip-right">Move to right</span></label>
@@ -85,30 +91,28 @@
         <label class="in"> <i class="fas fa-expand"></i><span class="tooltip-in">Resize</span></label>
         <label class="rotate"> <i class="fas fa-sync-alt"></i><span class="tooltip-rotate">Rotate by 45deg</span></label>
 
-        <p>Rotation:&nbsp;<input type="number" min="1" max="200" step="0.01" value="0"></p>
+
         <p>Color:&nbsp;<input type="color" name="favcolor"></p>
+        <p>Rotation:&nbsp;<input type="number" min="1" max="200" step="0.01" value="0"></p>
         <p>Opacity:<br /><input type="range" min="0.0" max="1.0" step="0.01"></p>
-        <p>Translate:<br />X:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
-        <p>Y:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
         <p>Scale:<br />X:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
         <p>Y:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
         <p>Position:<br />X:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
         <p>Y:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
-        <p>Skew:<br />X:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
-        <p>Y:&nbsp;<input type="number" min="0.0" max="200.0" step="0.01" value="5"></p>
       </div>
 
 
-      <div class="animation-properties">
+      <div class="menu-display animation-properties" style="display: none" id='animation-properties'>
         <h2>Animation properties</h2>
         <p> Duration <input type="number" min="1" max="200" step="0.01" value="4"> sec. </p>
-        <button> Trajectory <i class="fas fa-directions"></i></button>
+
         <p> Timing function: </p>
         <label> <input type="radio" name="timing" value="ease"> ease </label>
         <label> <input type="radio" name="timing" value="ease in"> ease in</label>
         <label> <input type="radio" name="timing" value="ease out"> ease out</label>
         <label> <input type="radio" name="timing" value="ease in-out"> ease in-out</label>
         <label> <input type="radio" name="timing" value="linear"> linear</label>
+
         <p>Rotation:</p>
         <div class="rotation">
           <div class="rotation-item"></div>
@@ -140,5 +144,7 @@
     </div>
   </div>
 </body>
+
+<script src="js/navigator.js"></script>
 
 </html>
