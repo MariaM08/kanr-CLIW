@@ -34,5 +34,23 @@ var headerMessagesJson = ["You can change object's size and properties from 'Obj
 "Click on the logo, do it, I know you want to :)"
 ];
 
-localStorage.setItem('headerMessages', JSON.stringify(headerMessagesJson));
-localStorage.setItem('footerMessages', JSON.stringify(footerMessagesJson));
+// localStorage.setItem('headerMessages', JSON.stringify(headerMessagesJson));
+// localStorage.setItem('footerMessages', JSON.stringify(footerMessagesJson));
+
+// const headerMessages = JSON.parse(localStorage.getItem('headerMessages'));
+// const footerMessages = JSON.parse(localStorage.getItem('footerMessages'));
+
+let repeat = setInterval(function(){
+    let number = Math.floor(Math.random() *  headerMessagesJson.length);
+    document.getElementById('headerMessage').innerHTML = headerMessages[number];
+}, 15000);
+
+repeat = setInterval(function(){
+    let number = Math.floor(Math.random() *  footerMessagesJson.length);
+    document.getElementById('footerMessage').innerHTML = footerMessagesJson[number];
+}, 8000);
+
+function changeHeaderMessage() {
+    let number = Math.floor(Math.random() *  headerMessagesJson.length);
+    document.getElementById("headerMessage").innerHTML = headerMessagesJson[number];
+}
