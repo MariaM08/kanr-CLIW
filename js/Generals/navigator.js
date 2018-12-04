@@ -21,8 +21,22 @@ function unselectMenu() {
     }
 }
 
+
+
+const headerMessages = JSON.parse(localStorage.getItem('headerMessages'));
+const footerMessages = JSON.parse(localStorage.getItem('footerMessages'));
+
+let repeat = setInterval(function(){
+    let number = Math.floor(Math.random() *  headerMessages.length);
+    document.getElementById('headerMessage').innerHTML = headerMessages[number];
+}, 15000);
+
+repeat = setInterval(function(){
+    let number = Math.floor(Math.random() *  footerMessages.length);
+    document.getElementById('footerMessage').innerHTML = footerMessages[number];
+}, 8000);
+
 function changeHeaderMessage() {
-    const messages = JSON.parse(localStorage.getItem('headerMessages'));
-    let number = Math.floor(Math.random() *  messages.length);
-    document.getElementById("headerMessage").innerHTML = messages[number];
+    let number = Math.floor(Math.random() *  headerMessages.length);
+    document.getElementById("headerMessage").innerHTML = headerMessages[number];
 }
