@@ -1,0 +1,2 @@
+-functions to handle bezier curves
+-functions to handle every button on object properties and update layer on the respective time that's on progress bar

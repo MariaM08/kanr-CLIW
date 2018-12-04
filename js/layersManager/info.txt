@@ -1,0 +1,2 @@
+-funcitons to get and set new/esxisting layers and set current layers
+-event handlers

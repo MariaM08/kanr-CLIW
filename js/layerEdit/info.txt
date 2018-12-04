@@ -1,0 +1,5 @@
+-functions to get and set items to the current layer (flag to check which is selected)
+-functions to handle different object properties on different time spans - on click on progress bar 
+-functions for play/pause/stop buttons
+-functions to handle events on buttons
+

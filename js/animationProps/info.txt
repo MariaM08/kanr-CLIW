@@ -1,0 +1,2 @@
+-functions to get and set json to local storage with aniation duration and timing and etc
+-functions to handle events from menu-tab of animation properties

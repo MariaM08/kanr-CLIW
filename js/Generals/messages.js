@@ -31,8 +31,6 @@ var headerMessagesJson = ["You can change object's size and properties from 'Obj
 "You can only delete the current layer you're working on.",
 "If you close the browser, all your work will be lost.",
 "If you close the browser, all your work will be lost.",
-"Click on the logo, do it, I know you want to :3",
-"Click on the logo, do it, I know you want to ;)",
 "Click on the logo, do it, I know you want to :)"
 ];
 

@@ -1,0 +1,3 @@
+-functions to get and set new items to json in local storage
+-functions to handle create new object button + create it's layer 
+-functions for popup and creating object: bezier curves, drag and drop events, sides, etc.
