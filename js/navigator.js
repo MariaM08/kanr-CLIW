@@ -20,3 +20,9 @@ function unselectMenu() {
             displayedOthers[iterator].style.display = 'none';                
     }
 }
+
+function changeHeaderMessage() {
+    const messages = JSON.parse(localStorage.getItem('headerMessages'));
+    let number = Math.floor(Math.random() *  messages.length);
+    document.getElementById("headerMessage").innerHTML = messages[number];
+}

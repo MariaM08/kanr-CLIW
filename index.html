@@ -17,9 +17,10 @@
   <div id="portrait-warning">
     <p>You can not access KANR on portrait view.<br> Please change orientation to landscape.</p>
   </div>
+
   <div class="wrapper">
     <div class="header">
-      <p>K-Animate YourSelf: Lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit lorem ipsum dolor sit</p>
+      <p id='headerMessage'>Did you know clouds fly higher during the day than the night?</p>
     </div>
 
     <div class="title">
@@ -27,7 +28,7 @@
     </div>
 
     <div class="preview">
-      <img id="logo-wrapper" src="./images/logo.svg" alt="Kanr Logo">
+      <img id="logo-wrapper" src="./images/logo.svg" alt="Kanr Logo" onclick="changeHeaderMessage()">
       <div class="monitor">
         <div class="object-wrapper">
           <i class="fas fa-square"></i>
@@ -145,6 +146,8 @@
   </div>
 </body>
 
+
+<script src="js/messages.js"></script>
 <script src="js/navigator.js"></script>
 
 </html>
